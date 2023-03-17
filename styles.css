@@ -1,0 +1,39 @@
+html,
+* {
+    font-family: cursive !important;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    padding: 0 20em !important;
+    background-color: #000;
+}
+
+#app-title {
+    color: #3c3c3c;
+}
+
+div#generated-color:empty:after {
+    content: "Generate Color First!";
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #787878;
+    font-style: italic;
+}
+
+div#generated-color {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #585858;
+    font-style: italic;
+}
